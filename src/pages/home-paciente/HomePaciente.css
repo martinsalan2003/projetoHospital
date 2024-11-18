@@ -1,0 +1,125 @@
+#Paciente-Home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+}
+
+
+#home-paciente .paciente-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 80%;
+    max-width: 1200px;
+}
+
+#home-paciente .titulo-container {
+    width: 400px;
+    text-align: center;
+    padding: 20px 0;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    position: absolute;
+    top: 15%;
+    left: 38%;
+}
+
+#home-paciente .menu-e-conteudo {
+    display: flex;
+    gap: 20px;
+    height: 500px;
+    width: 800px;
+}
+
+#home-paciente .menu-container {
+    width: 250px;
+    height: 50%;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+}
+
+#home-paciente .menu-container h3 {
+    margin-bottom: 10px;
+    color: #333;
+}
+
+#home-paciente .menu-divider {
+    border: none;
+    border-top: 2px solid #ccc;
+    width: 80%;
+    margin: 10px 0;
+}
+
+#home-paciente .menu-container button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #555;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#home-paciente .menu-container button:hover {
+    background-color: #396EB0;
+}
+
+#home-paciente .conteudo-container {
+    flex: 1;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    overflow-y: auto; 
+}
+
+#home-paciente .card-acao {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+#home-paciente .card-acao h3 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+#home-paciente .card-acao form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+#home-paciente .card-acao label {
+    display: flex;
+    flex-direction: column;
+}
+
+#home-paciente .card-acao input,
+#home-paciente .card-acao select {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#home-paciente .card-acao button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #396EB0;
+    color: white;
+    cursor: pointer;
+}

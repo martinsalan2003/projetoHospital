@@ -1,0 +1,165 @@
+
+#consultar-paciente-container {
+    background-color: #fff;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 2rem;
+    text-align: center;
+  }
+  
+  #consultar-paciente-container input {
+    width: 80%;
+    padding: 0.8rem;
+    margin-top: 0.5rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+  }
+  
+  #consultar-paciente-container input:focus {
+    outline: none;
+    border-color: #396EB0;
+  }
+  
+  #consultar-paciente-container button {
+    margin-top: 1rem;
+    padding: 0.8rem 1.5rem;
+    background-color: #396EB0;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  #consultar-paciente-container button:hover {
+    background-color: #285b8e;
+  }
+  
+  #mensagem-consulta {
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    color: #333;
+  }
+  
+  /* Cadastro Paciente */
+  #cadastrar-button,
+  #novo-cadastro-button,
+  #submit-button {
+    background-color: #396EB0;
+    color: #fff;
+    padding: 1rem 2rem;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  #cadastrar-button:hover,
+  #novo-cadastro-button:hover,
+  #submit-button:hover {
+    background-color: #285b8e;
+  }
+  
+  #form-cadastro {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 1.5rem;
+  }
+  
+  #form-cadastro div {
+    margin-bottom: 1rem;
+  }
+  
+  #form-cadastro label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  #form-cadastro input {
+    width: 100%;
+    padding: 0.8rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+  }
+  
+  #form-cadastro input:focus {
+    outline: none;
+    border-color: #396EB0;
+  }
+  
+  /* Lista de Pacientes */
+  #lista-pacientes-container {
+    margin-top: 3rem;
+    padding: 1.5rem;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  #lista-pacientes-container ul {
+    list-style-type: none;
+  }
+  
+  #lista-pacientes-container li {
+    font-size: 1.1rem;
+    padding: 0.8rem;
+    border-bottom: 1px solid #f0f0f0;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  #lista-pacientes-container li:last-child {
+    border-bottom: none;
+  }
+  
+  #paciente-item strong {
+    font-size: 1.2rem;
+    color: #396EB0;
+  }
+  
+  /* Cadastro Concluído */
+  #cadastro-sucesso {
+    text-align: center;
+    margin-top: 2rem;
+  }
+  
+  #cadastro-sucesso h2 {
+    font-size: 1.75rem;
+    color: #396EB0;
+  }
+  
+  #cadastro-sucesso button {
+    background-color: #396EB0;
+    color: #fff;
+    padding: 1rem 2rem;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  #cadastro-sucesso button:hover {
+    background-color: #285b8e;
+  }
+  
+  #consultar-button,
+  #cadastrar-button,
+  #submit-button,
+  #novo-cadastro-button {
+    transition: background-color 0.3s ease;
+  }
+  
+  #consultar-button:active,
+  #cadastrar-button:active,
+  #submit-button:active,
+  #novo-cadastro-button:active {
+    background-color: #285b8e;
+  }

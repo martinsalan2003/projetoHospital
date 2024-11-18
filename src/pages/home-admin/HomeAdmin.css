@@ -1,0 +1,466 @@
+.header {
+    background-color: #ffffff;
+    gap: 15%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height:15vh;
+    color: #03346E;
+}
+
+.IconeHeader{
+    width: 12%;
+    height: 160%;
+}
+
+.usuario { 
+    border-radius: 10px;
+    padding: 15px;
+    background-color: #BBE9FF;
+}
+
+/* inicio do código conteudo */
+
+.containerContent {
+    height: 80vh;
+    margin: 15px 15px;
+    display: grid;
+    grid-template-columns: 25% auto;
+   
+}
+
+
+/* estilo da navegação */
+
+.sideBar {
+    padding: 15px;
+}
+#navSideBar {
+    border-radius: 10px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+}
+
+.global {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 15%;
+    color: #03346E;
+
+}
+.icones {
+    color:  #ffffff;
+    height: 35px;
+}
+
+
+.global:hover {
+    cursor: pointer;
+    background-color: #BBE9FF;
+    border-radius: 5px;
+}
+
+
+
+/* consutorio */
+
+.content {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .consultorios-section {
+    text-align: center;
+  }
+  
+  .cards-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .cardis {
+    width: 250px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .cardis:hover {
+    cursor: pointer;
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .cardis-img {
+    background-image: url(https://images.pexels.com/photos/236380/pexels-photo-236380.jpeg?auto=compress&cs=tinysrgb&w=600);
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  .cardis h3 {
+    margin-top: 15px;
+    color: #007bff;
+    font-size: 1.2rem;
+  }
+  
+  .cardis p {
+    font-size: 14px;
+    color: #333;
+    margin-top: 10px;
+  }
+
+
+  .criar-consultorio-card {
+    background-color: #e0e0e0;
+    border: 2px dashed #888;
+    color: #333;
+    cursor: not-allowed;
+  }
+  
+  .criar-consultorio-card h3 {
+    font-size: 18px;
+    color: #333;
+    margin-top: 10px;
+  }
+  
+  .criar-consultorio-card p {
+    font-size: 14px;
+    color: #666;
+  }
+  
+  
+  #consultorio1 {
+    border-color: #007bff;
+  }
+  
+  #consultorio2 {
+    border-color: #28a745;
+  }
+  
+  #consultorio3 {
+    border-color: #ffc107;
+  }
+  
+  #consultorio4 {
+    border-color: #dc3545;
+  }
+
+
+  /* escala medica */
+
+  .escala-medica-section {
+    text-align: center;
+  }
+  
+  .escala-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .escala-card {
+    width: 280px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .escala-card:hover {
+    cursor: pointer;
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .escala-card h3 {
+    color: #007bff;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  .escala-card p {
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  table th, table td {
+    padding: 8px;
+    text-align: center;
+    border: 1px solid #ddd;
+  }
+  
+  table th {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  table td {
+    background-color: #f9f9f9;
+  }
+  
+
+  #escala1 {
+    border-color: #007bff;
+  }
+  
+  #escala2 {
+    border-color: #28a745;
+  }
+  
+  #escala3 {
+    border-color: #ffc107;
+  }
+  
+  #escala4 {
+    border-color: #dc3545;
+  }
+
+
+  /* usuarios  */
+
+  .usuarios-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+  }
+  
+  .usuario-card {
+    width: 250px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .usuario-card:hover {
+    cursor: pointer;
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .usuario-card h3 {
+    font-size: 1.2rem;
+    color: #007bff;
+  }
+  
+  .usuario-card p {
+    font-size: 14px;
+    color: #333;
+    margin-top: 10px;
+  }
+  
+  .usuario-card p:first-child {
+    font-weight: bold;
+  }
+
+  .novo-usuario-card {
+    background-color: #e0e0e0;
+    border: 2px dashed #888;
+    color: #333;
+    cursor: not-allowed;
+  }
+  
+  .novo-usuario-card h3 {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .novo-usuario-card p {
+    font-size: 14px;
+    color: #666;
+  }
+  
+ 
+  #balconista1 {
+    border-color: #28a745; 
+  }
+  
+  #balconista2 {
+    border-color: #28a745;
+  }
+  
+  #medico1 {
+    border-color: #007bff; 
+  }
+  
+  #medico2 {
+    border-color: #007bff;
+  }
+  
+  #medico3 {
+    border-color: #007bff;
+  }
+  
+  #medico4 {
+    border-color: #007bff;
+  }
+  
+  #paciente1 {
+    border-color: #dc3545; 
+  }
+  
+  #paciente2 {
+    border-color: #dc3545;
+  }
+  
+  /* Títulos específicos */
+  #balconista1 h3, #balconista2 h3 {
+    color: #28a745;
+  }
+  
+  #medico1 h3, #medico2 h3, #medico3 h3, #medico4 h3 {
+    color: #007bff;
+  }
+  
+  #paciente1 h3, #paciente2 h3 {
+    color: #dc3545;
+  }
+
+
+
+  /* informações */
+  .apresentacao-section {
+    background-color: white; 
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+  }
+  
+  #titulo-apresentacao {
+    text-align: center;
+    font-size: 2rem;
+    color: #007bff;
+    margin-bottom: 20px;
+  }
+  
+  #conteudo-apresentacao {
+    text-align: justify;
+    font-size: 16px;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  #introducao-projeto {
+    font-style: italic;
+    margin-bottom: 20px;
+  }
+  
+  #responsaveis-titulo {
+    font-size: 1.5rem;
+    color: #007bff;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+  
+  /* Estilo dos cards de responsáveis */
+  .responsaveis {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .responsavel-card {
+    width: 250px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .responsavel-card:hover {
+    cursor: pointer;
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .responsavel-card h4 {
+    font-size: 1.2rem;
+    color: #007bff;
+    margin-bottom: 10px;
+  }
+  
+  .responsavel-card p {
+    font-size: 14px;
+    color: #333;
+  }
+  
+  /* Identificadores únicos */
+  #responsavel-alan {
+    border-color: #28a745; 
+  }
+  
+  #responsavel-lucas {
+    border-color: #ffc107; 
+  }
+  
+  #responsavel-angelo {
+    border-color: #dc3545; 
+  }
+
+  /* pagina inicial */
+
+
+  .graficos-section {
+    background-color: #f4f6fc;
+    padding: 30px;
+    border-radius: 8px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .graficos-section h2 {
+    font-size: 28px;
+    color: #333;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .graficos-section p {
+    font-size: 16px;
+    color: #666;
+    text-align: center;
+  }
+  
+  .graficos-section div {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+  }
+  
+  .graficos-section > div > div {
+    width: 48%;
+    text-align: center;
+  }
+  
+  .graficos-section h3 {
+    font-size: 20px;
+    color: #333;
+  }

@@ -1,0 +1,151 @@
+
+.tituloMedico {
+    margin: 15px;
+}
+
+.cards-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.card {
+    background-color: white;
+    width: 280px;
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: left;
+    box-sizing: border-box;
+    transition: all .3s ease-in-out;
+}
+.card:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.foto-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.foto {
+    display: flex;
+    height: 100px;
+    border-radius: 50px;
+    object-fit: cover;
+}
+
+.card .linha-medico{
+    border: none;
+    border-top: 2px solid #ccc;
+    margin: 15px 0;
+}
+
+.card .titulo-medico {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+
+.card .parag-medico {
+    font-size: 0.9em;
+    color: #555;
+    margin: 5px 0;
+}
+
+
+.detalhes-card {
+
+    background-color: white;
+    width: 800px;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    text-align: left;
+    border-radius: 8px;
+    transition: width 0.3s ease;
+}
+
+.detalhes-info {
+    display: flex;
+    gap: 20px;
+}
+
+.detalhes-pessoais, .detalhes-endereco {
+    flex: 1;
+}
+
+.detalhes-endereco {
+    text-align: left;
+}
+
+.detalhes-card h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.foto-detalhada {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto 10px auto;
+    object-fit: cover;
+}
+
+.detalhes-card p {
+    font-size: 0.95em;
+    color: #333;
+    margin: 8px 0;
+}
+
+.observacao-input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 0.9em;
+}
+
+#salvar-button, .fechar-button {
+    padding: 8px 12px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#salvar-button {
+    background-color: #000000;
+    color: white;
+}
+
+#salvar-button:hover {
+    background-color: #396EB0;
+}
+
+.btn-global {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #555;
+    color: white;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn-global:hover {
+    background-color: #396EB0;
+}
