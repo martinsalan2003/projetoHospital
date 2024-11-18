@@ -9,7 +9,7 @@ ChartJS.register(CategoryScale, LinearScale, BarElement, Title, Tooltip, Legend,
 
 import { Link } from "react-router-dom";
 import './HomeAdmin.css';  
-import IconeHeader from '@assets/logoSemFundo.png';  
+import IconeHeader from '../../assets/logoSemfundo.png';  
 import IconeUser from './images/UserIMG.png';
 import IconeEscala from './images/escalaIMG.png';
 import IconeConsu from './images/ConsuIMG.png';
