@@ -13,7 +13,6 @@ import IconeHeader from '../../assets/logoSemfundo.png';
 import IconeUser from './images/UserIMG.png';
 import IconeEscala from './images/escalaIMG.png';
 import IconeConsu from './images/ConsuIMG.png';
-import IconeInfo from './images/infoIMG.png';
 
 
 const HomeAdmin = () => {
@@ -73,7 +72,7 @@ const HomeAdmin = () => {
               <p>Consutorios</p>
             </div>
             <div className="global" onClick={InfoSistema}>
-              <img src={IconeInfo} alt="icone" className="icones" />
+              
               <p>Info Sistema</p>
             </div>
           </div>
