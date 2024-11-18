@@ -166,7 +166,7 @@ const HomeAdmin = () => {
       <p>Diagnóstico: Diabetes tipo 2</p>
     </div>
 
-    <Link to='/erro'>
+    <Link to='/S-o-Lucas-Mendel/erro'>
     <div className="usuario-card novo-usuario-card" >
       <h3>Criar Novo Usuário</h3>
       <p>Clique aqui para criar um novo usuário.</p>
@@ -310,7 +310,7 @@ const HomeAdmin = () => {
       <p>Status: Em Uso</p>
     </div>
 
-   <Link to='/erro'>
+   <Link to='/S-o-Lucas-Mendel/erro'>
     <div className="cardis criar-consultorio-card">
       <img src="https://via.placeholder.com/150" alt="Criar Consultório" className="card-img" />
       <h3>Criar Novo Consultório</h3>

@@ -77,8 +77,8 @@ let navigate = useNavigate();
 
             <button id="btn-login" type="button" onClick={Entrar}>Entrar</button>
             <div className="links">
-              <Link to="/erro">Cadastrar Para Paciente</Link>             
-             <Link to="/erro">Esqueceu a Senha?</Link>
+              <Link to="/S-o-Lucas-Mendel/erro">Cadastrar Para Paciente</Link>             
+             <Link to="/S-o-Lucas-Mendel/erro">Esqueceu a Senha?</Link>
             </div>
           </form>
         </div>
