@@ -1,6 +1,6 @@
 {
-  "homepage": "https://martinsalan2003.gitgub.io/S-o-Lucas-Mendel",
-  "name": "s-o-lucas---mendel",
+  "homepage": "https://martinsalan2003.github.io/projetoHospital",
+  "name": "projetoHospital",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -9,8 +9,8 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "predeploy":"npm run bild",
-    "deploy":"gh-pages -d dist"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "chart.js": "^4.4.6",
