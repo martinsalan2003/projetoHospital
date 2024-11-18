@@ -17,7 +17,7 @@ import {
 
 const router = createBrowserRouter([
   {
-    path: "https://martinsalan2003.github.io/projetoHospital/",
+    path: "/S-o-Lucas-Mendel",
     element: <TelaLogin/>
   },
   {
