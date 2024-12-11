@@ -13,7 +13,7 @@ import IconeHeader from '../../assets/logoSemfundo.png';
 import IconeUser from './images/UserIMG.png';
 import IconeEscala from './images/escalaIMG.png';
 import IconeConsu from './images/ConsuIMG.png';
-import IconeInformacao from './images/infoIMG.png'
+import IconeInformacao from './images/inforIMG.png'
 
 
 const HomeAdmin = () => {
