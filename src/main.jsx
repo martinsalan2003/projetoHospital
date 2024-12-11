@@ -17,27 +17,27 @@ import {
 
 const router = createBrowserRouter([
   {
-    path: "/S-o-Lucas-Mendel",
+    path: "/projetoHospita",
     element: <TelaLogin/>
   },
   {
-    path: "/S-o-Lucas-Mendel/admin",
+    path: "/projetoHospita/admin",
     element: <HomeAdmin/>
   },
   {
-    path: "/S-o-Lucas-Mendel/atendente",
+    path: "/projetoHospita/atendente",
     element: <HomeBalconista/>
   },
   {
-    path: "/S-o-Lucas-Mendel/medico",
+    path: "/projetoHospita/medico",
     element: <HomeMedico/>
   },
   {
-    path: "/S-o-Lucas-Mendel/paciente",
+    path: "/projetoHospita/paciente",
     element: <HomePaciente/>
   },
   {
-    path: "/S-o-Lucas-Mendel/erro",
+    path: "/projetoHospita/erro",
     element: <Erro/>
   },
 ]);

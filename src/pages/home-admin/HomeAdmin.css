@@ -52,8 +52,11 @@
 
 }
 .icones {
-    color:  #ffffff;
+   
     height: 35px;
+}
+#infoicon {
+  height:40px;
 }
 
 

@@ -13,7 +13,7 @@ import IconeHeader from '../../assets/logoSemfundo.png';
 import IconeUser from './images/UserIMG.png';
 import IconeEscala from './images/escalaIMG.png';
 import IconeConsu from './images/ConsuIMG.png';
-import IconeInformacao from 'https://github.com/martinsalan2003/projetoHospital/blob/main/src/pages/home-admin/images/InforIMG.png'
+import IconeInformacao from './images/inforIMG.png'
 
 
 const HomeAdmin = () => {
@@ -72,8 +72,8 @@ const HomeAdmin = () => {
               <img src={IconeConsu} alt="icone" className="icones" />
               <p>Consutorios</p>
             </div>
-            <div className="global" onClick={InfoSistema}>
-              <img src={IconeInformacao} alt="icones" />
+            <div  className="global" onClick={InfoSistema}>
+              <img id='infoicon' src={IconeInformacao} alt="icones" />
               <p>Info Sistema</p>
             </div>
           </div>
@@ -166,7 +166,7 @@ const HomeAdmin = () => {
       <p>Diagnóstico: Diabetes tipo 2</p>
     </div>
 
-    <Link to='/S-o-Lucas-Mendel/erro'>
+    <Link to='/projetoHospita/erro'>
     <div className="usuario-card novo-usuario-card" >
       <h3>Criar Novo Usuário</h3>
       <p>Clique aqui para criar um novo usuário.</p>
@@ -310,7 +310,7 @@ const HomeAdmin = () => {
       <p>Status: Em Uso</p>
     </div>
 
-   <Link to='/S-o-Lucas-Mendel/erro'>
+   <Link to='/projetoHospita/erro'>
     <div className="cardis criar-consultorio-card">
       <img src="https://via.placeholder.com/150" alt="Criar Consultório" className="card-img" />
       <h3>Criar Novo Consultório</h3>
